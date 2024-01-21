@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://c4.wallpaperflare.com/wallpaper/114/1008/41/one-piece-monkey-d-luffy-hd-wallpaper-preview.jpg) no-repeat center / cover;  
+}
+
+.container{
+    height: 500px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.container:hover{
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua, inset 0 0 20px aqua;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.container:hover h1{
+    color: red;
+}
+
+.container .input-box {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    margin: 20px 0;
+    
+}
+
+.container:hover .input-box input{
+    border: 2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 15px aqua, inset 0 0 15px aqua;
+}
+
+.input-box input{
+    box-sizing: border-box;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.input-box input::placeholder{
+    text-indent: 10px;
+}
+
+.btn{
+    height: 40px;
+    width: 250px;
+    margin-left: 70px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container:hover .btn{
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua, inset 0 0 20px aqua;
+
+}
+
+
